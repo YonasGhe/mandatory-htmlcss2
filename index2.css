@@ -1,19 +1,21 @@
 body{
-  height: 200px;
+  hieght: 100px;
   width: 100%;
+
   margin: 0;
 }
 .header{
   display: flex;
   background-color: #333;
+
 }
 header {
-  height: 200px;
+  height: 100;
   width: 100%;
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #333;
+
 }
 .header a {
   color: white;
@@ -22,11 +24,26 @@ header {
   text-align: center;
 }
 main {
-  flex: 30%;
+  display: flex;
+  flex-wrap: wrap;
   padding: 20px;
 }
 main img {
   width: 100px;
   margin: 10px;
-  text-align: center;  
+  text-align: center;
+}
+img {
+    flex-grow: 1;
+}
+
+@media (max-width: 700px ){
+  header{
+    text-align: center;
+
+  }
+  .header {
+    display: none;
+  }
+
 }
