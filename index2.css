@@ -5,11 +5,9 @@ body{
   background-color: #333;
 }
 header {
-  height: 100;
+  height: 150;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0;
+  border: 1px solid black;
   color: blue;
   background-color: #f1f;
 }
@@ -23,19 +21,20 @@ h1{
   display: flex;
 }
 .header a {
- color: blue;
-  padding: 20px;
+  color: white;
+  padding: 10px;
   text-decoration: none;
   text-align: center;
 }
 main {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
 }
 main img {
   width: 100px;
-  margin: 10px;
+  margin: 20px;
   text-align: center;
 }
 img {
